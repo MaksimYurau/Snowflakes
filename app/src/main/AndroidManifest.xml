@@ -11,8 +11,7 @@
         android:theme="@style/Theme.Snowflakes">
         <activity
             android:name=".SnowflakesActivity"
-            android:theme="@style/Theme.Snowflakes.Translucent"
-            android:label="@string/app_name">
+            android:theme="@style/Theme.Snowflakes.Translucent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
