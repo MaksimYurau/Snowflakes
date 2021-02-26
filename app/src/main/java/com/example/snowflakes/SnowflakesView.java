@@ -12,16 +12,16 @@ import androidx.annotation.Nullable;
 import java.util.Random;
 
 public class SnowflakesView extends View {
+
     private final Paint paint = new Paint();
     private final Random random = new Random();
     private final int length = 200;
-    private int height;
-    private int width;
+    private int width, height;
 
     private class Snowflake {
         int x, y, dx, dy, radius, alpha;
 
-        public Snowflake() {
+        Snowflake() {
             x = random.nextInt(width);
             y = -random.nextInt(height);
             dx = -7 + random.nextInt(15);
